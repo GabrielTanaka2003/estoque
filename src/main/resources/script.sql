@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS estoque(
+    id INT PRIMARY KEY,
+    name VARCHAR(255),
+    value NUMERIC(38,2)
+);
