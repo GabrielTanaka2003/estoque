@@ -1,5 +1,6 @@
-CREATE TABLE IF NOT EXISTS estoque(
-    id INT PRIMARY KEY,
+CREATE TABLE IF NOT EXISTS tb_estoque(
+    id_product uuid NOT NULL PRIMARY KEY,
     name VARCHAR(255),
-    value NUMERIC(38,2)
+    value numeric(38,2),
+    quantity numeric(38,2)
 );
